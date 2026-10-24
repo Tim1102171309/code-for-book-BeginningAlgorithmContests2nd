@@ -12,10 +12,12 @@ int main()
 			{
 				printf("Case %d: %d\n",kase,s);
 				tag=1;
+				break;
 			}
 		}
 		if(tag==0)
 			printf("Case %d: No answer",kase);
+		++kase;
 	}
 	return 0;
 } 
